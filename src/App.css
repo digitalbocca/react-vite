@@ -2,3 +2,18 @@
   background-color: #22c55e;
   cursor: pointer;
 }
+
+.personal-calendar .p-button-icon-only {
+  background-color: #188a42;
+  border-color: #188a42;
+}
+
+.personal-calendar .p-button:enabled:hover {
+  background-color: #22c55e;
+  border-color: #188a42;
+}
+
+.personal-calendar .p-inputtext:enabled:focus,
+.personal-calendar .p-inputtext:enabled:hover {
+  border-color: #188a42;
+}
