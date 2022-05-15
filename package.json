@@ -1,11 +1,12 @@
 {
-  "name": "react-vite",
+  "name": "react-vite-2",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "npm run dev"
   },
   "dependencies": {
     "primeflex": "^3.2.0",

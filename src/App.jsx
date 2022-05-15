@@ -3,17 +3,17 @@ import './App.css'
 
 function App() {
   return (
-    <div className="flex flex-column p-0 m-0 min-h-screen">
-      <div className="bg-primary-900 text-white text-4xl font-bold text-center p-4">
+    <div className='flex flex-column min-h-screen'>
+      <div className='bg-green-700 text-4xl font-bold text-white text-center p-4'>
         R$ 50,00
       </div>
-      <div className='p-4 flex-grow-1'>
+      <div className='flex-grow-1'>
         Formulário
       </div>
-      <div className="bg-primary-900 text-white pt-4">
-        <i className="pi pi-home"></i>
-        <i className="pi pi-list"></i>
-        <i className="pi pi-plus"></i>
+      <div className='bg-green-700 text-4xl font-bold text-white text-center py-2'>
+        <i className="pi pi-home text-4xl p-2 btn-hover border-round-md"></i>
+        <i className="pi pi-list text-4xl p-2 btn-hover border-round-md"></i>
+        <i className="pi pi-plus text-4xl p-2 btn-hover border-round-md"></i>
       </div>
     </div>
   )
