@@ -1,19 +1,8 @@
 .btn-hover:hover {
-  background-color: #22c55e;
+  background-color: #4f46e5;
   cursor: pointer;
 }
 
-.personal-calendar .p-button-icon-only {
-  background-color: #188a42;
-  border-color: #188a42;
-}
-
-.personal-calendar .p-button:enabled:hover {
-  background-color: #22c55e;
-  border-color: #188a42;
-}
-
-.personal-calendar .p-inputtext:enabled:focus,
-.personal-calendar .p-inputtext:enabled:hover {
-  border-color: #188a42;
+.formulario {
+  width: clamp(250px, 100%, 350px);
 }
